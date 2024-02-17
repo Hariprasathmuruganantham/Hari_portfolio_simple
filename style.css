@@ -1,0 +1,105 @@
+
+.heading{
+    background-color:black;
+    color: antiquewhite;
+    padding: 20px;
+}  
+.heading__home{
+    background-color: antiquewhite;
+    color: black ;
+    font-weight: bold;
+    padding: 2px;
+    text-decoration: none;
+    margin-top: 10px;
+
+}
+.heading__home:hover {
+    background-color: burlywood;
+}
+  
+*{
+    padding: 0;
+    margin: 0;
+    ;
+}
+.container{
+    padding: 10px;
+}
+
+.heading__name{
+    font-size: 70px;
+}
+  .heading__role{
+    font-size: 20px;
+  }
+  .section__1,.section__2,.section__3,.section__4,.section__5{
+    padding-top: 20px;
+  }
+  .section__1__desc,.section__2__desc,.section__3__desc,.section__4__desc,.section__5__desc
+{
+    padding-top: 20px;
+}
+.section__4,.section__5{
+    background-color: black;
+    color: antiquewhite;
+    padding-left: 1px;
+}
+.section__4__desc__insta,.section__4__desc__linkedin,.section__4__desc__contact{
+    background-color: antiquewhite;
+    display: inline-block;
+    color: black ;
+    font-weight: bold;
+    padding: 2px;
+    text-decoration: none;
+}
+.section__2 li,.section__3 li {
+    list-style: none;
+
+}
+.section__2{
+    display: inline-block;
+    background-color: aqua;
+    border-radius: 5px;
+    height: 150px;
+    vertical-align: top;
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.section__3{
+    display: inline-block;
+    background-color:orangered;
+    border-radius: 5px;
+    height: 150px;
+    vertical-align: top;
+    padding:    20px;
+    width: 400px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.section__4__desc__insta:hover,.section__4__desc__linkedin:hover,.section__4__desc__contact:hover{
+    background-color: burlywood;
+}
+.contactform__name,.contactform__age,.contactform__message{
+    margin-top: 10px;
+    border: none;
+    border-bottom: solid black 2px;
+}
+.name,.age,.message{
+    font-weight: bold;
+    padding: 10px;
+}
+
+.section__submit{
+    background-color: antiquewhite;
+    display: inline-block;
+    color: black ;
+    font-weight: bold;
+    padding: 4px;
+    text-decoration: none;
+
+}
+
+.section__submit:hover{
+    background-color: burlywood;
+}
